@@ -20,6 +20,7 @@ client.on('ready', () => {
     console.log(`Bot status : ${client.user.presence.status}`)
     console.log(`Bot avatar Link : ${client.user.displayAvatarURL()}`)
     console.log(`selfbot? : ${selfbot}`)
+    console.log(`Bot invite link : https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`)
 })
 
 client.on('message', (message) => {
